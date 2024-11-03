@@ -1,0 +1,72 @@
+// @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap');
+// $font-stack-body: 'Roboto', sans-serif;
+// $font-stack-heading: 'Pacifico', cursive;
+
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+
+body {
+    background-image: url("../assets/trianglify.svg");
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* This was made with GlassGenerator.netlify.app */ 
+  
+  .glass-container{
+    width: 80%;
+    height: auto;
+    color: white;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0,0,0, 0.05);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 1px rgba(255,255,255,0.4) solid;
+    border-bottom: 1px rgba(40,40,40,0.35) solid;
+    border-right: 1px rgba(40,40,40,0.35) solid;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  header {
+    h1 {
+      color: slateblue;
+      padding: 1em;
+      text-align: left;
+    }
+    margin-bottom: 20px;
+    .navbar {
+      margin: auto;
+      justify-content: center;
+      display: flex;
+      grid-auto-columns: auto;
+      
+      // Add margin to each child element
+      & > * {
+        margin: 0 10px; // Adjust the margin as needed
+      }
+    }
+  }
+  
+  div {
+    .content-container {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+  
+  footer {
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    color: aqua;
+  }
+  
