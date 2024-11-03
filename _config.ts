@@ -12,7 +12,6 @@ const site = lume({
 });
 
 site.copy("assets");
-site.copy("css");
 
 site.use(jsx())
     .use(mdx())
