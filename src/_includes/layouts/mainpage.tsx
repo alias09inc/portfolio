@@ -12,19 +12,12 @@ export default ({ comp, title, children }: Lume.Data, helpers: Lume.Helpers) => 
 
       <body>
         <comp.header />
-        {/* <header >
-          <div className="h-full backdrop-blur-md">
-          <h1>{title}</h1>
-          </div>
-        </header> */}
 
         <main>
           {children}
         </main>
 
-        <footer>
-          <p>© 2021</p>
-        </footer>
+        <comp.footer />
       </body>
 
     </html>

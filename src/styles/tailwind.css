@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+      font-family: Amatic SC, system-ui, sans-serif;
+    }
+}
+
+@layer components {
+    .font-caveat {
+        font-family: Caveat, system-ui, sans-serif;
+    }
+}
